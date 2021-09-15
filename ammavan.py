@@ -22,7 +22,7 @@ async def on_message(message):
     await message.channel.send(hello[ran])
   elif message.content.startswith("Kerr"):
     await message.channel.send("odiko")
-  elif message.author.id == "550200267061329":
+  elif message.author.id == "userid":
      message.channel.send('Shut Up')  
 @client.event
 async def on_disc(time):
